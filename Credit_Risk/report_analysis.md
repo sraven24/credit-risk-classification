@@ -2,16 +2,12 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
 The purpose of this analysis was to see if machine learning could accurately predict the credit risk of potential loans using the statistics of loans from previous clients. Statistics like, loan size, interest rate, income, debt, and whether or not the previous debtor defaulted, we created a supervised learning model to see if we could predict if someone was a credit risk.
 
 The number of healthy and unhealthy loans were calculated by using the value counts method. Because of the large ratio imbalance between healthy loans and unhealthy loans (by approximately 30 times more), logistical regression was done on the data as is, and then done of the data after it was resized using a random oversampling model (which compensated for the extreme imbalance between the two targets).
 
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
   * Precision:Out of all the loans that the model predicted would get default, 87% did. 
